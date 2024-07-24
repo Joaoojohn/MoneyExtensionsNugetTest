@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <PackageId>MoneyExtension_joaoojohn</PackageId>
+    <Version>1.0.1</Version>
+    <License>MIT</License>
+    <Authors>João Pedro Costa</Authors>
+    <Company>joaoojohn</Company>
+    <PackageDescription>Extension to convert decimal to integer</PackageDescription>
+    <Description>Extension to convert decimal to integer</Description>
+    <RepositoryUrl>https://github.com/Joaoojohn/MoneyExtensionsNugetTest</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Joaoojohn/MoneyExtensionsNugetTest</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>money;int;decima;converter</PackageTags>
+    <Title>MoneyExtension_joaoojohn</Title>
+    <Summary>Extension to convert decimal to integer</Summary>
+    </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Media\icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>
